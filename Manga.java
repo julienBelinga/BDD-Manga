@@ -24,9 +24,5 @@ public class Manga {
     public int getAnnee(){return annee;}
     
     public int getNbTome(){return nbTome;}
-    
-    
-    
-
-       
+               
 }
