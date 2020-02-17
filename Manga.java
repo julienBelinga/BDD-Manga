@@ -44,5 +44,3 @@ public class Manga {
     public int getNbTome() {
         return nbTome;
     }
-
-}

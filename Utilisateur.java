@@ -15,6 +15,7 @@ public class Utilisateur {
 
         try ( BufferedReader br = new BufferedReader(new FileReader("liste.txt"))) {
             String line;
+
             while ((line = br.readLine()) != null) {
 
                 System.out.println(line);
@@ -30,6 +31,7 @@ public class Utilisateur {
                 genre = tabReader[2];
                 auteur = tabReader[3];
             }
+
             manga(titre, editeur, genre, auteur, annee, nbTome);
             manga.afficher();
         }
