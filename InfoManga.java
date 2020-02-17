@@ -9,6 +9,6 @@ public class InfoManga {
         Utilisateur U = new Utilisateur();
         Manga M = new Manga();
 
-        U.comparer();
+        U.lire();
     }
 }
